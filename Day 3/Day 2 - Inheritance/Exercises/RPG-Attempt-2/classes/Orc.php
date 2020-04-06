@@ -19,6 +19,7 @@ class Orc extends Adventurer
         }
         if (get_class($opponent) === 'Elf' && $opponent->_shield > 0) {
             // ! PHP is nice and allows this, C sharp and other languages do not ($opponent->_defencePoints)
+            // ! ^ This means that you should use Setters and Getters as seen before in Day 1 & 2
             $opponent->_healthPoints = $opponent->_defensePoints - $this->_attackPoints;
         }
     }
