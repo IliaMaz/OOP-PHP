@@ -21,7 +21,7 @@
 		function attack($opponent)
 		- They can use a magical power
 		function usePower()
-	
+	 
 	Each race has it's own way of doing those actions.
 
 	For the Orcs :

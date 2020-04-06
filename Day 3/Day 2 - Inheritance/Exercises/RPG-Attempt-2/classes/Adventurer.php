@@ -12,6 +12,7 @@ class Adventurer
   protected $_name;
   protected $_shield = 0;
   protected $_swords = 0;
+  protected $_flag = true;
   // Constructor
   public function __construct()
   {
