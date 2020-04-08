@@ -12,7 +12,7 @@ class Human extends Creature implements IWork
 
 	public function work()
 	{
-		return $this->_name . ' is working !<br>';
+		return 'The ' . $this->_sex . ' ' . $this->_name . ', who is ' . $this->_color . ' is going to work !<br>';
 	}
 
 	public function sound()
