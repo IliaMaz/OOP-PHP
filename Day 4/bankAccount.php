@@ -13,5 +13,5 @@ $i = 1;
 $b0nkAcc0unt = new Account($i, 1000, 10000);
 $cl = new Client('re', 're', 're', $b0nkAcc0unt);
 echo $b0nkAcc0unt->withdraw(100);
-
+$b0nkAcc0unt->deposit(200);
 var_dump($cl);
