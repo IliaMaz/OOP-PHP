@@ -20,7 +20,7 @@ $selectQuery = "SELECT * FROM users WHERE mail = '" . $mail . "'";
 */
 // * Prepared way :
 // ? Question mark is the simplest placeholder
-$selectQuery = "SELECT * FROM users WHERE mail = '?'";
+$selectQuery = "SELECT * FROM users WHERE mail = ?";
 // ? You can use the following :d , :description as placeholders
 // ? In the case of using these placeholders, your are going to call them directly as: bindValue('d') 
 // ? Prep the query

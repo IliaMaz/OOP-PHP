@@ -14,7 +14,7 @@ $pdo->exec("INSERT INTO movies(title) VALUES('" . $title . "')");
 
 // ? PDO way:
 
-$prep = $pdo->prepare("INSERT INTO movies(title) VALUES('?')");
+$prep = $pdo->prepare("INSERT INTO movies(title) VALUES(?)");
 $prep->bindParam(1, $title);
 
 $title = 'REE';
